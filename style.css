@@ -1,0 +1,22 @@
+/* enable darkmode */
+:root {
+    -webkit-color-scheme: light dark;
+}
+
+*{
+    font-family: 'Roboto', sans-serif;
+}
+
+body{
+    background-color: white;
+}
+
+
+@media (prefers-color-scheme: dark) {
+    body{
+        background-color: #323232;
+    }
+    h1{
+        color: #d5d5d5;
+    }
+}
