@@ -9,14 +9,29 @@
 
 body{
     background-color: white;
+    max-width: 660px;
+    margin: auto;
 }
 
+#container{
+    display: flex;
+}
+
+#container div{
+    flex: 2;
+}
+#container :first-child{
+    max-width: 170px;
+}
 
 @media (prefers-color-scheme: dark) {
     body{
-        background-color: #323232;
+        background-color: #1f1f1f;
     }
     h1{
         color: #d5d5d5;
+    }
+    *{
+        color: white;
     }
 }
